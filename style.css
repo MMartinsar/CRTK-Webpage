@@ -1,0 +1,169 @@
+/*Marcos Martín Sarmiento 17/11/2022*/
+
+*{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: rgb(43, 43, 43);
+}
+
+/*Barra de navegación*/
+#navList{
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+    padding: 0;
+}
+
+#navList li{
+    float: left;
+}
+
+.gifcentro{
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+
+#navList li a{
+    display: block;
+    color: black;
+    background-color:white;
+    font-size: 1.5vw;
+    font-family: fantasy;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+#navList li a:hover{
+    box-shadow: inset 300px 0 0 0 #54b3d6;
+    color: white;
+}
+
+/*Imagen central*/
+#imagenCentral{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+/*Tabla de selección de artículo*/
+.tablaInicio{
+    margin-left: auto;
+    margin-right: auto;
+}
+#disminucion{
+    transition: transform 0.5s; 
+}
+
+/*Efecto de artículo*/
+#disminucion tr td img:hover{
+    transform: scale(0.95);
+    /*filter: blur(5px);*/
+}
+
+#disminucion tr td img{
+    width: 100%;
+}
+
+#leftCol{
+    float: left;
+    width: 10%;
+    height: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: rgb(68, 67, 67);
+    bottom: 0;
+    top: 0;
+}
+
+#rightCol{
+    float: right;
+    width: 10%;
+    height: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: rgb(68, 67, 67);
+    bottom: 0;
+    top: 0;
+}
+
+#divArticulo{
+    width: 50%;
+    padding: 2%;
+    padding-left: 15%;
+}
+
+#asidePuntuacion{
+    height: 100%;
+    width: 20%;
+    float: right;
+    bottom: 0;
+    top: 0;
+}
+
+#imgPunt{
+    border-radius: 10px;
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#asideList{
+    list-style: disc;
+    padding: 5%;
+    margin: 5%;
+}
+
+.tablaFooter{
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablaFooter td, th, b{
+    background-color: rgb(43, 43, 43);
+    margin: 10%;
+    width: 30%;
+}
+
+.linkExt{
+    background-color: rgb(43, 43, 43);
+}
+
+#divPreContacto{
+    padding: 10%;
+    text-align: center;
+}
+
+#divContacto{
+    height: 50%;
+    padding: 4%;
+}
+
+input{
+    background-color: white;
+    color: black;
+}
+
+textarea{
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 50%;
+}
+
+#separador{
+    height:15%;
+}
